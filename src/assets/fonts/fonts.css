@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Roboto-Mono";
+  src: url("RobotoMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "futuraPT-Book";
+  src: url("FuturaPT-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "futuraPT-Light";
+  src: url("FuturaPT-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "futuraPT-Medium";
+  src: url("FuturaPT-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Titan";
+  src: url("TitanOne-Regular.ttf");
+}

@@ -1,0 +1,44 @@
+#Home {
+  width: 100%;
+  height: 100%;
+  background: rgb(29, 125, 210);
+  background: linear-gradient(
+    0deg,
+    rgba(29, 125, 210, 1) 0%,
+    rgba(66, 80, 179, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    display: flex;
+    left: 1rem;
+    right: 0;
+    top: 0;
+    padding: 0;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 0.3rem solid rgba(255, 255, 255, 0);
+    background-color: var(--color-light-blue);
+
+    > a {
+      float: left;
+      color: #ffffff;
+      background: var(--color-light-blue);
+      height: 36px;
+      line-height: 33px;
+      padding: 0 10px;
+      font-family: sans-serif;
+      border: 0.3rem solid var(--color-light-blue);
+      transition: 100ms;
+
+      > span {
+        font-family: "Titan";
+      }
+    }
+    > a:hover {
+      background-color: #ff00a4;
+      border: 0.3rem solid #faad3f;
+    }
+  }
+}

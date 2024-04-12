@@ -1,0 +1,73 @@
+#FallGuys {
+  width: 100%;
+  height: 100%;
+  background: rgb(29, 125, 210);
+  background: linear-gradient(
+    0deg,
+    rgba(29, 125, 210, 1) 0%,
+    rgba(66, 80, 179, 1) 100%
+  );
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  font-family: "Titan";
+  color: white;
+
+  button {
+    width: 15rem;
+    height: 19rem;
+    border-radius: 0.5rem;
+
+    border: 0.3rem solid #33c9ea;
+    outline: 0.4rem solid white;
+    background-color: #33c9ea;
+
+    transition: all 100ms linear;
+
+    position: relative;
+
+    box-shadow: 0 0.7rem 0 0 rgba(0, 0, 0, 0.2);
+
+    header {
+      position: absolute;
+      top: 0.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+
+      width: 100%;
+      p {
+        text-align: center;
+        font-size: xx-large;
+        text-shadow: 0.15rem 0.15rem #2c97b7;
+      }
+
+      span {
+        width: 80%;
+        height: 0.1rem;
+        display: block;
+        margin: auto;
+        margin-top: 0.5rem;
+        background-color: white;
+      }
+    }
+
+    img {
+      position: absolute;
+      bottom: 2.8rem;
+      left: 50%;
+      width: 12rem;
+      transform: translateX(-50%);
+    }
+  }
+
+  > button:hover {
+    background-color: #fa34a1;
+    outline: 0.3rem solid #fcc800;
+    border: 0.3rem solid white;
+    transform: scale(1.12);
+  }
+}

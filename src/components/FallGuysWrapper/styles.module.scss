@@ -1,0 +1,38 @@
+#NavBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0;
+  height: 4rem;
+  width: 100%;
+  // border-bottom: 0.3rem solid rgba(255, 255, 255, 0);
+  background-color: var(--color-light-blue);
+
+  > a {
+    float: left;
+    color: #ffffff;
+    background: var(--color-light-blue);
+    font-family: sans-serif;
+    border: 0.3rem solid var(--color-light-blue);
+    transition: 100ms;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > span {
+      font-family: "Titan";
+    }
+  }
+  > a:hover {
+    background-color: #ff00a4;
+    border-color: #faad3f;
+  }
+}

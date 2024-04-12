@@ -1,0 +1,64 @@
+:root {
+  font-family: "futuraPT-Light";
+  font-size: min(1vw, calc(16 / 9 * 1vh));
+
+  /* --color-orange: #ffa300;
+  --color-purple: #ae2573;
+  --color-light-green: #c4d600;
+  --color-yellow: #fdda24;
+  --color-red: #ee2737;
+  --color-dark-grey: #515569;
+  --color-grey: #978c87;
+  --color-white: #e4e4e8;
+  --color-lavande: #7c7fab;
+  --color-light-blue: #5dbfd4;
+  --color-dark-blue: #242a75;
+  --color-digital-blue: #00bbdd;
+  --color-green: #00ab8e; */
+  --color-light-blue: #33c9ea;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  margin: 0;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+a{
+  all:unset;
+  cursor: pointer;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: min(100vw, calc(16 / 9 * 100vh));
+  height: min(100vh, calc(9 / 16 * 100vw));
+  transform: translate(-50%, -50%);
+  
+  overflow: hidden;
+  background-color: gainsboro;
+}
+
+.fade-in-out{
+  opacity: 0;
+}
